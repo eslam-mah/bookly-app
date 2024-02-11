@@ -1,0 +1,36 @@
+name: bookly
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^5.4.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  font_awesome_flutter: ^10.7.0
+  get_it: ^7.6.7
+  go_router: ^13.1.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Logo.png
+    - assets/images/test_image.png
+  fonts:
+    - family: 'GT Sectra Fine'
+      fonts:
+        - asset: assets/fonts/GT Sectra Fine Regular.ttf
